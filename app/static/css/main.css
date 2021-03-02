@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    text-align: center;
+}
+.card_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.card > h1 {
+    position: absolute;
+    bottom: 5px;
+    padding: 20px;
+}
+.home_button {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.home_button > a {
+    width: 100%;
+    padding: 40px;
+}
+button {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    font-size: xx-large;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bolder;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.ma-card1 {background-image: url(/static/images/bruno-mars.jpg);}
+.ma-card2 {background-image: url(/static/images/luke-christopher.jpg);}
+.ma-card3 {background-image: url(/static/images/jid.jpg);}
+.ma-card4 {background-image: url(/static/images/saba.jpg);}
+.ma-card5 {background-image: url(/static/images/mac-miller.jpg);}
+
+.f-card1 {background-image: url(/static/images/sushi.jpg);}
+.f-card2 {background-image: url(/static/images/tacos.jpg);}
+.f-card3 {background-image: url(/static/images/pad-see-ew.jpg);}
+.f-card4 {background-image: url(/static/images/tonkotsu-ramen.jpg);}
+.f-card5 {background-image: url(/static/images/beef-bulgogi.jpg);}
+
+.pv-card1 {background-image: url(/static/images/havana-cuba.jpg);}
+.pv-card2 {background-image: url(/static/images/cape-town-south-africa.jpg);}
+.pv-card3 {background-image: url(/static/images/anchorage-alaska.jpg);}
+.pv-card4 {background-image: url(/static/images/shibuya-japan.jpg);}
+.pv-card5 {background-image: url(/static/images/seoul-south-korea.jpg);}
+
+.bg-card1 {background-image: url(/static/images/dixit.jpg);}
+.bg-card2 {background-image: url(/static/images/7wonders.jpg);}
+.bg-card3 {background-image: url(/static/images/mouse-trap.jpg);}
+.bg-card4 {background-image: url(/static/images/scotland-yard.jpg);}
+.bg-card5 {background-image: url(/static/images/ticket-to-ride.jpg);}
+
+.sf-card1 {background-image: url(/static/images/kobe-bryant.jpg);}
+.sf-card2 {background-image: url(/static/images/lionel-messi.jpg);}
+.sf-card3 {background-image: url(/static/images/ichiro-suzuki.jpg);}
+.sf-card4 {background-image: url(/static/images/michael-jordan.jpg);}
+.sf-card5 {background-image: url(/static/images/ronaldinho-gaucho.jpg);}
+
+#ma {background-image: url(/static/images/musical_artist.jpg);}
+#f {background-image: url(/static/images/foods.jpg);}
+#pv {background-image: url(/static/images/places_visited.jpg);}
+#bg {background-image: url(/static/images/board_games.jpg);}
+#sf {background-image: url(/static/images/sports.jpg);}

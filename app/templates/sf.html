@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for info in cards %}
+        <div class="card {{ info.class }}"><h1>{{info.name}}</h1></div>
+    {% endfor %}
+{% endblock content %}
